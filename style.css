@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+/* variable */
+:root{
+    --lightCyan: hsl(193, 38%, 86%);
+    --NeonGreen: hsl(150, 100%, 66%);
+    --DarkGrayishBlue: hsl(217, 19%, 24%);
+    --DarkBlue: hsl(218, 23%, 16%);
+}
+body{
+    background-color: var(--DarkBlue);
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.main{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: var(--DarkGrayishBlue);
+    text-align: center;
+    padding: 2rem;
+    border-radius: .7rem;
+}
+.image{
+    content: url('./images/pattern-divider-mobile.svg');
+    display: inline-block;
+    max-height:100%; max-width:100%;
+}
+h1{
+    color: var(--NeonGreen);
+    font-size: smaller;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+p{
+    display: inline-block;
+    width: 190px;
+    height: 100px;
+    color: var(--lightCyan);
+    font-size: 15px;
+    font-weight: 800;
+}
+.dice-image {
+    position: absolute;
+    cursor: pointer;
+    left: 50%;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--NeonGreen);
+    background-image: url("./images/icon-dice.svg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    transform: translateY(30%) translateX(-50%);   
+}
+/* only to apply styles on devices with hover capability. */
+@media (hover: hover) {
+.dice-image:hover {
+    box-shadow: -1px 1px 88px 1px rgba(82, 255, 168, 1);
+    -webkit-box-shadow: -1px 1px 88px 1px rgba(82, 255, 168, 1);
+    -moz-box-shadow: -1px 1px 88px 1px rgba(82, 255, 168, 1);
+    transition: all ease-in-out 0.5s;
+}
+}
+@media(min-width: 768px){
+    .container{
+        width: 350px;
+    }
+    p{
+        width: 340px;
+        font-size: 19px;
+    }
+    .image{
+        content: url('./images/pattern-divider-mobile.svg');
+    }
+}
