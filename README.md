@@ -8,8 +8,8 @@ Advice generator app using the [Advice Slip API](https://api.adviceslip.com/)
 
 ### Links
 
-- Code URL: [](https://github.com/rimshub/javascript-advice-generator)
-- Live Site URL: [](https://rimshub.github.io/javascript-advice-generator)
+- Code URL: (https://github.com/rimshub/javascript-advice-generator)
+- Live Site URL: (https://rimshub.github.io/javascript-advice-generator/)
 
 ## Overview
 
@@ -29,8 +29,8 @@ Users should be able to:
 
 ## Author
 
-- Website - [](https://github.com/rimshub)
-- Frontend Mentor - [](https://www.frontendmentor.io/profile/rimshub)
+- Website - (https://github.com/rimshub)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/rimshub)
 
 ## Acknowledgments
 
